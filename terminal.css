@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: none;
+  color:#fff;
+  font-size: 18px;
+}
+
+.container {
+  width: 100%;
+  background-color: #F9F8F8;
+  padding: 20px;
+}
+.flex-box {
+  display: flex;
+}
+
+.questions {
+  width: 50%;
+  height: 600px;
+  background: #98B1B2;
+}
+
+.console {
+  width: 80%;
+  height: 400px;
+  background-color: #0E1E24;
+}
+
+.terminal-container {
+  width: 50%;
+  text-align: center;
+}
+
+.terminal {
+  width:500px;
+  height:600px;
+  background-color:#474843;
+}
+
+.execution-btn {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  background-color: #E19B53;
+}
