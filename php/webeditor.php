@@ -53,5 +53,6 @@ $console = '../output/console.txt';
       </form>
     </div>
   </div>
+  <script type="text/javascript" src="../js/question1.js"></script>
 </body>
 </html>
