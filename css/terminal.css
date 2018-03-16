@@ -10,6 +10,10 @@ textarea {
   font-size: 18px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   width: 100%;
   background-color: #F9F8F8;
@@ -21,19 +25,25 @@ textarea {
 
 .questions {
   width: 50%;
-  height: 600px;
   background: #98B1B2;
-}
-
-.console {
-  width: 80%;
-  height: 400px;
-  background-color: #0E1E24;
+  text-align: center;
 }
 
 .terminal-container {
   width: 50%;
   text-align: center;
+}
+
+.console {
+  width: 80%;
+  height: 300px;
+  background-color: #0E1E24;
+}
+
+.output {
+  width: 80%;
+  height: 300px;
+  background-color: #0E1E24;
 }
 
 .terminal {
@@ -43,8 +53,19 @@ textarea {
 }
 
 .execution-btn {
-  display: inline-block;
+  display: block;
   width: 100px;
   height: 40px;
   background-color: #E19B53;
+  margin: 0 auto;
+}
+
+.language {
+  margin: 30px;
+}
+
+.language img {
+  width: 150px;
+  height: 150px;
+  background-color: transparent;
 }

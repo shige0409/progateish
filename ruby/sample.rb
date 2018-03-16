@@ -1,5 +1,2 @@
-def sum a, b
-  a + b
-end
-
-puts sum 2,5
+a = 2
+puts a
