@@ -1,0 +1,86 @@
+@import 'color';
+* {
+  color: $main-font-color;
+  box-sizing: border-box;
+}
+
+.flex-box {
+  display: flex;
+}
+
+main {
+  background-color: $main-background-color;
+  padding: 20px;
+}
+
+.container {
+  text-align: center;
+}
+
+header {
+  background-color: #fff;
+  nav {
+    .logo {
+      width: 20%;
+      line-height: 50px;
+      font-size: 25px;
+      text-shadow: 1px 2px 3px gray;
+      transition: 0.4s;
+      &:hover {
+        text-shadow: 1px 2px 9px gray;
+      }
+    }
+    ul {
+      width: 80%;
+      justify-content: flex-end;
+      li {
+        padding: 0 20px;
+        transition: all 0.4s;
+        border-right: solid 1px gray;
+        &:hover {
+          background-color: $main-font-color;
+          a {
+            color: #fff;
+          }
+        }
+        a {
+          line-height: 50px;
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.contents {
+}
+
+.content {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 6px gray;
+  margin: 20px;
+  transition: all 0.4s;
+  img {
+    transition: all 1s;
+    width: 300px;
+    height: 200px;
+  }
+  p {
+    max-height: 0;
+  }
+  &:hover {
+    box-shadow: 0 0 18px gray;
+  }
+  &:active {
+    img {
+      width: 450px;
+      height: 300px;
+    }
+  }
+}
